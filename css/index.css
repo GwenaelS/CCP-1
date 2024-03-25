@@ -1,0 +1,14 @@
+header{
+    background-color: lightgray;
+}
+
+.infos{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 2em;
+}
+.reseaux-sociaux{
+    width: 1.5em;
+    height: 1.5em;
+}
