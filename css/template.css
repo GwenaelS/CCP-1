@@ -1,0 +1,124 @@
+/* =======================================================
+    CONFIGURATIONS GENERALES
+======================================================= */
+.flex{
+    display: flex;
+}
+h1{
+    font-size: 4em;
+    margin-left: 0.5em;
+}
+h2{
+    font-size: 3rem;
+}
+/* =======================================================
+    HEADER
+======================================================= */
+header{
+    background-color: lightgray;
+}
+/* ================================ */
+.header-infos-reseaux{
+    background-color: #363032;
+}
+.header-infos-reseaux{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.header-infos a{
+    text-decoration: none;
+    color: white;
+    margin-right: 3em;
+}
+.header-reseaux{
+    margin: 0 2em;
+}
+.header-reseaux img{
+    width: 1.5em;
+    height: 1.5em;
+}
+/* ================================ */
+.header-presentation{
+    align-items: center;
+    justify-content: space-between;
+}
+.header-titre{
+    align-items: center;
+    margin: 0.5em 0 0.5em 2em;
+}
+.compte{
+    margin-right: 2em;
+    align-items: center;
+}
+.messagerie{
+    width: 3em;
+    height: 3em;
+    margin-right: 1em;
+}
+.profil{
+    width: 5em;
+    height: 5em;
+    background-color: black;
+    border-radius: 50%;
+}
+/* =======================================================
+    HEADER
+======================================================= */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    padding: 1em;
+    width: 80%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#home{
+    width: 1.5em;
+    border-bottom: orange;
+}
+.search-bar{
+    max-width: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* =======================================================
+    FOOTER
+======================================================= */
+.ligne-footer{
+    height: 5vh;
+    background-color: grey;
+}
+/* footer{
+    background-color: lightgray;
+} */
+.footer-all{
+    justify-content: space-around;
+    background-color: lightgray;
+}
+.footer-card{
+    display: flex;
+    flex-direction: column;
+}
+.footer-card p{
+    margin: 1em 0;
+}
+.footer-card a{
+    text-decoration: none;
+    color: black;
+}
+.footer-end{
+    padding: 1em;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-end a{
+    text-decoration: none;
+    color: black;
+}

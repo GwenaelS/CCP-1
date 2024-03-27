@@ -1,14 +1,207 @@
-header{
+/* =======================================================
+    PRESENTATION SECTION
+======================================================= */
+.presentation{
+    height: 80vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+/* ================================ */
+.presentation-texte{
+    padding: 2em;
+    margin: 5vh;
+    width: 40%;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    color: white;
+}
+.presentation-texte h2{
+    margin: 2vh 0;
+}
+.presentation-texte p{
+    margin-bottom: 4vh;
+}
+.presentation-buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+.presentation-buttons a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 0.8em 1.5em;
+}
+#RDV{
+    margin-right: 1em;
+}
+/* ================================ */
+.presentation-img{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.presentation-img img{
+    width: auto;
+}
+/* =======================================================
+    SERVICES SECTION
+======================================================= */
+.services{
+    min-height: 100vh;
+    text-align: center;
     background-color: lightgray;
 }
-
-.infos{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    height: 2em;
+/* ================================ */
+.services-texte{
+    padding-top: 10vh;
 }
-.reseaux-sociaux{
-    width: 1.5em;
-    height: 1.5em;
+.services-texte p{
+    width: 50%;
+    padding: 5vh 0;
+    margin: 0 auto 0 auto;
+}
+/* ================================ */
+.services-cards{
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+/* ================================ */
+.services-card{
+    min-height: 40vh;
+    width: 15%;
+    margin: 0 1em;
+    padding: 0.5em;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow:  -9px -9px 18px #cccccc,
+    9px 9px 18px #f4f4f4;
+}
+.services h3{
+    margin-top: 2vh;
+    font-size: 1.5rem;
+}
+.services-card p{
+    margin-top: 2vh;
+}
+.services-card img{
+    margin: 1.5em 0;
+}
+.services-card a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 0.8em 1.5em;
+}
+/* =======================================================
+    REFERENCES SECTION
+======================================================= */
+.references{
+    min-height: 100vh;
+    background-color: gray;
+    text-align: center;
+}
+/* ================================ */
+.references-texte{
+    padding-top: 10vh;
+}
+.references-texte p{
+    width: 50%;
+    padding: 5vh 0;
+    margin: 0 auto 0 auto;
+}
+/* ================================ */
+.references-cards{
+    margin: 0.5em 0;
+    justify-content: center;
+}
+/* ================================ */
+.references-card{
+    width: 15em;
+    height: 15em;
+    margin: 1em 2em;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.references-card h3{
+    font-size: 2.1rem;
+}
+#violon{
+    background-image: url(../img/violon.jpeg);
+}
+#caraf{
+    background-image: url(../img/caraf.jpeg);
+}
+#pelle{
+    background-image: url(../img/pelle.jpeg);
+}
+#louttre{
+    background-image: url(../img/animal.jpeg);
+}
+#voiture{
+    background-image: url(../img/voiture.jpeg);
+}
+#grimoire{
+    background-image: url(../img/grimoire.jpeg);
+}
+#medecin{
+    background-image: url(../img/medecin.jpeg);
+}
+#train{
+    background-image: url(../img/train.jpeg);
+}
+/* ================================ */
+.references-end-texte{
+    width: 50%;
+    padding: 3vh 0;
+    margin: 0 auto 0 auto;
+    font-size: 1.5rem;
+}
+.references-end-texte p{
+    margin-bottom: 0.8em;
+}
+.references-end-texte a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 0.3em 1.5em;
+}
+/* =======================================================
+    COMMENTAIRES SECTION
+======================================================= */
+.commentaires{
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: lightgrey;
+}
+/* ================================ */
+.commentaire{
+    width: 50%;
+    height: 60%;
+    background-color: black;
+}
+.post-commentaire{
+    text-align: center;
+    width: 40%;
+    height: 30%;
+    background-color: grey;
+}
+.post{
+    background-color: black;
+    width: 90%;
+    height: 50%;
 }
