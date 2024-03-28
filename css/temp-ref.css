@@ -10,6 +10,7 @@ h2{
     margin: 0 auto;
     justify-content: space-around;
     border-top: solid 5px black;
+    align-items: center;
 }
 /* =================================== */
 .ref-content{
@@ -27,6 +28,7 @@ h2{
     margin: 0.5em 0;
 }
 .ref-content button{
+    cursor: pointer;
     margin: 2em 0;
     padding: 1em 5em;
     background-color: black;

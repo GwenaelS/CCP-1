@@ -54,7 +54,11 @@
 .services{
     min-height: 100vh;
     text-align: center;
-    background-color: lightgray;
+    /* background-color: lightgray; */
+    background-color: #182b29;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(83.21, 59%, 53%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(100.71, 22%, 50%) 0, transparent 55%);
 }
 /* ================================ */
 .services-texte{
@@ -72,14 +76,18 @@
 }
 /* ================================ */
 .services-card{
+    /* color: white; */
     min-height: 40vh;
     width: 15%;
     margin: 0 1em;
     padding: 0.5em;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(243, 248, 239, 0.75);
     border-radius: 20px;
-    background: #e0e0e0;
-    box-shadow:  -9px -9px 18px #cccccc,
-    9px 9px 18px #f4f4f4;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow:  -9px -9px 20px #182B29,
+    9px 9px 20px #94CA40;
 }
 .services h3{
     margin-top: 2vh;
@@ -105,8 +113,8 @@
 ======================================================= */
 .references{
     min-height: 100vh;
-    background-color: gray;
     text-align: center;
+    background-color: beige;
 }
 /* ================================ */
 .references-texte{
