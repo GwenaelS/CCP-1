@@ -4,6 +4,9 @@
 .flex{
     display: flex;
 }
+.text-center{
+    text-align: center;
+}
 h1{
     font-size: 4em;
     margin-left: 0.5em;
@@ -32,7 +35,7 @@ header{
     margin-right: 3em;
 }
 .header-reseaux{
-    margin: 0 2em;
+    margin: 0.3em 2em;
 }
 .header-reseaux img{
     width: 1.5em;
@@ -78,14 +81,25 @@ nav ul{
     justify-content: space-around;
     align-items: center;
 }
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 1em;
+    font-size: 1.2rem;
+}
+nav a:hover{
+    border-bottom: solid 2px green;
+}
 #home{
-    width: 1.5em;
-    border-bottom: orange;
+    max-width: 1rem;
 }
 .search-bar{
-    max-width: 10%;
+    width: 10%;
     margin-right: auto;
     margin-left: auto;
+}
+.search-bar input{
+    max-width: 100%;
 }
 /* =======================================================
     FOOTER
@@ -94,21 +108,22 @@ nav ul{
     height: 5vh;
     background-color: grey;
 }
-/* footer{
-    background-color: lightgray;
-} */
 .footer-all{
     justify-content: space-around;
     background-color: lightgray;
+    padding-bottom: 1em;
 }
 .footer-card{
     display: flex;
     flex-direction: column;
 }
 .footer-card p{
+    color: rgb(0, 58, 0);
+    font-weight: 600;
     margin: 1em 0;
 }
 .footer-card a{
+    margin: 0.2em;
     text-decoration: none;
     color: black;
 }

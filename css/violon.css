@@ -1,0 +1,38 @@
+h2{
+    margin-top: 0.5em;
+}
+.ref-presentation p{
+    margin: 1em 0;
+}
+/* =================================== */
+.reference-preview{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+    border-top: solid 5px black;
+}
+/* =================================== */
+.ref-content{
+    width: 30%;
+    height: 100%;
+    padding: 1em 0 0em 2em;
+    background-color: aliceblue;
+}
+.ref-content h3{
+    margin: 1em 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.ref-content p{
+    margin: 0.5em 0;
+}
+.ref-content button{
+    margin: 2em 0;
+    padding: 1em 5em;
+    background-color: black;
+    color: white;
+}
+/* =================================== */
+.ref-image{
+    max-width: 60%;
+}
