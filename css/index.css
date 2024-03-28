@@ -19,9 +19,11 @@
 }
 .presentation-texte h2{
     margin: 2vh 0;
+    text-shadow: 2px 2px black;
 }
 .presentation-texte p{
     margin-bottom: 4vh;
+    text-shadow: 2px 2px black;
 }
 .presentation-buttons{
     display: flex;
@@ -54,40 +56,40 @@
 .services{
     min-height: 100vh;
     text-align: center;
-    /* background-color: lightgray; */
-    background-color: #182b29;
-    background-image: 
-        radial-gradient(at 47% 33%, hsl(83.21, 59%, 53%) 0, transparent 59%), 
-        radial-gradient(at 82% 65%, hsl(100.71, 22%, 50%) 0, transparent 55%);
+    background-image: url(../img/dirt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* ================================ */
 .services-texte{
-    padding-top: 10vh;
+    padding-top: 20vh;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 .services-texte p{
     width: 50%;
-    padding: 5vh 0;
+    padding: 5vh 0 5vh 0;
     margin: 0 auto 0 auto;
 }
 /* ================================ */
 .services-cards{
     justify-content: center;
     padding-bottom: 5vh;
+    text-shadow: 2px 2px black;
 }
 /* ================================ */
 .services-card{
-    /* color: white; */
+    color: white;
     min-height: 40vh;
     width: 15%;
     margin: 0 1em;
     padding: 0.5em;
-    backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(243, 248, 239, 0.75);
     border-radius: 20px;
+    backdrop-filter: blur(25px) saturate(107%);
+    -webkit-backdrop-filter: blur(25px) saturate(107%);
+    background-color: rgba(17, 25, 40, 0.13);
+    border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-    box-shadow:  -9px -9px 20px #182B29,
-    9px 9px 20px #94CA40;
 }
 .services h3{
     margin-top: 2vh;
@@ -109,25 +111,39 @@
     padding: 0.8em 1.5em;
 }
 /* =======================================================
+    INTERLUDE TERRE
+======================================================= */
+.interlude-terre{
+    color: white;
+    background-image: linear-gradient(#4C230F,#0E0002);
+    text-align: center;
+    align-items: center;
+    text-shadow: 2px 2px black;
+}
+.interlude-terre-txt{
+    margin: 0 auto;
+    padding: 5em 0;
+}
+.interlude-terre-txt p{
+    width: 50%;
+    padding-top: 2em;
+    margin: 0 auto 0 auto;
+}
+/* =======================================================
     REFERENCES SECTION
 ======================================================= */
 .references{
-    min-height: 100vh;
+    color: white;
+    /* max-height: 100vh; */
     text-align: center;
-    background-color: beige;
-}
-/* ================================ */
-.references-texte{
-    padding-top: 10vh;
-}
-.references-texte p{
-    width: 50%;
-    padding: 5vh 0;
-    margin: 0 auto 0 auto;
+    padding-top: 18em;
+    background-image: url(../img/cave3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 /* ================================ */
 .references-cards{
-    margin: 0.5em 0;
     justify-content: center;
 }
 /* ================================ */
@@ -143,6 +159,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* box-shadow:  -10px -10px 30px #bebebe,
+    10px 10px 30px #ffffff; */
 }
 .references-card h3{
     font-size: 2.1rem;
@@ -174,7 +192,7 @@
 /* ================================ */
 .references-end-texte{
     width: 50%;
-    padding: 3vh 0;
+    padding: 3em 0;
     margin: 0 auto 0 auto;
     font-size: 1.2rem;
 }
@@ -191,28 +209,61 @@
     padding: 0.3em 1.5em;
 }
 /* =======================================================
+    INTERLUDE EAU
+======================================================= */
+.interlude-eau{
+    height: 14em;
+    background-image: linear-gradient(#38101B,#1A234C);
+}
+/* =======================================================
     COMMENTAIRES SECTION
 ======================================================= */
 .commentaires{
     align-items: center;
     justify-content: space-around;
-    height: 100vh;
-    background-color: lightgrey;
+    min-height: 100vh;
+    background-image: url(../img/water3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* ================================ */
-.commentaire{
+.commentaire-img{
     width: 50%;
-    height: 60%;
-    background-color: black;
+}
+.commentaire-img img{
+    max-width: 90%;
 }
 .post-commentaire{
     text-align: center;
+    padding: 1%;
+    border-radius: 50px;
     width: 40%;
-    height: 30%;
+    height: 100%;
     background-color: grey;
 }
-.post{
-    background-color: black;
+.post-commentaire h2{
+    margin: 0.5em 0;
+}
+.post-commentaire p{
+    margin-bottom: 1em;
+}
+.post textarea{
+    padding: 1%;
     width: 90%;
-    height: 50%;
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+/* =======================================================
+    INTERLUDE LAVE
+======================================================= */
+.interlude-lave{
+    height: 14em;
+    background-image: linear-gradient(#141545,#190810);
+}
+/* =========== */
+footer{
+    color: white;
+    background-image: url(../img/lava2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

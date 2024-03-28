@@ -12,7 +12,7 @@ h2, h3{
     font-weight: 600;
 }
 h1{
-    font-size: 4em;
+    font-size: 4rem;
     margin-left: 0.5em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
@@ -117,7 +117,7 @@ nav a:hover{
 }
 .footer-all{
     justify-content: space-around;
-    background-color: lightgray;
+    /* background-color: lightgray; */
     padding-bottom: 1em;
 }
 .footer-card{
@@ -136,7 +136,7 @@ nav a:hover{
 }
 .footer-end{
     padding: 1em;
-    background-color: gray;
+    /* background-color: gray; */
     display: flex;
     justify-content: space-around;
 }

@@ -1,0 +1,75 @@
+/* =================================== */
+.ref-presentation{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ref-presentation p{
+    margin: 1em 0;
+}
+/* =================================== */
+.arianne{
+    margin-left: 1em;
+}
+.arianne ul{
+    display: flex;
+}
+.arianne li{
+    display: inline;
+}
+.arianne a{
+    cursor: default;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    background-color: lightgray;
+    margin-right: 1.5em;
+    padding: 0.5em 1em;
+}
+.arianne a::before,
+.arianne a::after{
+    content: "";
+    position: absolute;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1.05em 15px;
+    top: 0;
+}
+.arianne a::before{
+    left: -1em;
+    border-left-color: transparent;
+}
+.arianne a::after{
+    left: 100%;
+    border-color: transparent;
+    border-left-color: lightgray;
+}
+h2{
+    margin: 0.5em 0;
+}
+/* =================================== */
+.formulaire-container{
+    width: 90%;
+    margin: 0 auto;
+    border-top: solid 5px black;
+}
+form{
+    width: 100%;
+    margin-top: 2em;
+    justify-content: space-around;
+}
+.informations{
+    width: 40%;
+}
+.formulaire{
+    width: 45%;
+    padding: 1%;
+}
+.formulaire input{
+    width: 100%;
+}
+.form-exeption{
+    justify-content: space-between;
+}
+.form-exeption input{
+    width: 40%;
+}
