@@ -171,13 +171,16 @@
     font-size: 2.1rem;
 }
 #violon{
-    background-image: url(../img/violon.jpeg);
+    background-image: url(../img/violon.jpg);
 }
 #loutre{
-    background-image: url(../img/loutre.jpeg);
+    background-image: url(../img/loutre.jpg);
 }
 #grimoire{
-    background-image: url(../img/grimoire.jpeg);
+    background-image: url(../img/grimoire.jpg);
+}
+#gem{
+    background-image: url(../img/gem.jpg);
 }
 /* ================================ */
 .references-end-texte{
