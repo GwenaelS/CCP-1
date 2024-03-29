@@ -14,6 +14,7 @@
     margin: 5vh;
     width: 40%;
     backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.125);
     border-radius: 50px;
     color: white;
 }
@@ -63,11 +64,12 @@
 /* ================================ */
 .services-texte{
     padding-top: 20vh;
+    width: 50%;
+    margin: 0 auto;
     color: white;
     text-shadow: 2px 2px black;
 }
 .services-texte p{
-    width: 50%;
     padding: 5vh 0 5vh 0;
     margin: 0 auto 0 auto;
 }
@@ -81,7 +83,7 @@
 .services-card{
     color: white;
     min-height: 40vh;
-    width: 15%;
+    max-width: 15%;
     margin: 0 1em;
     padding: 0.5em;
     border-radius: 20px;
@@ -119,15 +121,17 @@
     text-align: center;
     align-items: center;
     text-shadow: 2px 2px black;
+    
 }
 .interlude-terre-txt{
     margin: 0 auto;
+    width: 60%;
     padding: 5em 0;
 }
 .interlude-terre-txt p{
-    width: 50%;
+
     padding-top: 2em;
-    margin: 0 auto 0 auto;
+
 }
 /* =======================================================
     REFERENCES SECTION
@@ -230,16 +234,15 @@
 .commentaire-img{
     width: 50%;
 }
-.commentaire-img img{
-    max-width: 90%;
-}
 .post-commentaire{
+    color: white;
+    text-shadow: 2px 2px black;
     text-align: center;
     padding: 1%;
     border-radius: 50px;
     width: 40%;
-    height: 100%;
-    background-color: grey;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .post-commentaire h2{
     margin: 0.5em 0;
@@ -250,6 +253,7 @@
 .post textarea{
     padding: 1%;
     width: 90%;
+    border: solid 3px black;
     margin-bottom: 1em;
     border-radius: 10px;
 }
@@ -257,13 +261,202 @@
     INTERLUDE LAVE
 ======================================================= */
 .interlude-lave{
-    height: 14em;
+    height: 8em;
     background-image: linear-gradient(#141545,#190810);
 }
-/* =========== */
-footer{
-    color: white;
-    background-image: url(../img/lava2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+/* =======================================================
+    MEDIAS QUERRIES
+    Template W3School
+
+    0 to 600px
+    601px to 766px
+    767px to 992px
+
+======================================================= */
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .header-infos-reseaux, h1, .navbar, .presentation-img{
+        display: none;
+    }
+    h2{
+        font-size: 2rem;
+    }
+/* ===================================== */
+    .presentation-texte{
+        width: 80%;
+        margin: auto;
+    }
+/* ================= */
+    .services-texte{
+        padding-top: 5em;
+        width: 90%;
+    }
+    .services-cards{
+        flex-direction: column;
+    }
+    .services-card{
+        max-width: 90%;
+        margin: 0 auto 1em auto;
+    }
+/* ================= */
+    .interlude-terre-txt{
+        width: 80%;
+    }
+/* ================= */
+    .references{
+        padding-top: 15em;
+    }
+    .references-cards{
+        flex-wrap: wrap;
+    }
+    .references-card{
+        width: 11em;
+        height: 11em;
+    }
+    .references-card h3{
+        font-size: 1.5rem;
+    }
+    .references-end-texte{
+        width: 80%;
+    }
+/* ================= */
+    .commentaires{
+        flex-direction: column;
+    }
+    .commentaire-img{
+        width: 80%;
+    }
+    .post-commentaire{
+        width: 90%;
+    }
+/* ================= */
+    .footer-end{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-end a{
+        padding: 2px;
+        text-align: center;
+        border: solid 2px white;
+    }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .header-infos-reseaux, .navbar{
+        display: none;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+/* ================= */
+    nav li a{
+        padding: 0.5em 0.2em;
+    }
+    .search-bar input{
+        width: 100%;
+    }
+/* ================= */
+    .services-texte{
+        padding-top: 3em;
+        width: 90%;
+    }
+    .services-cards{
+        flex-wrap: wrap;
+    }
+    .services-card{
+        max-width: 40%;
+        margin: 0 auto 1em auto;
+    }
+/* ================= */
+    .interlude-terre-txt{
+        width: 80%;
+    }
+/* ================= */
+    .references{
+        padding-top: 15em;
+    }
+    .references-cards{
+        flex-wrap: wrap;
+    }
+    .references-card{
+        width: 12em;
+        height: 12em;
+    }
+    .references-card h3{
+        font-size: 1.6rem;
+    }
+    .references-end-texte{
+        width: 80%;
+    }
+/* ================= */
+    .commentaires{
+        flex-direction: column;
+        padding-bottom: 2em;
+    }
+    .commentaire-img{
+        margin: 2em 0;
+        width: 80%;
+    }
+    .post-commentaire{
+        width: 90%;
+    }
+/* ================= */
+    .footer-end a{
+        display: flex;
+        align-items: center;
+        padding: 2px;
+        text-align: center;
+        border: solid 2px white;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+/* ================= */
+    .services-texte{
+        padding-top: 3em;
+        width: 90%;
+    }
+    .services-cards{
+        flex-wrap: nowrap;
+    }
+    .services-card{
+        max-width: 20%;
+        margin: 0 1em;
+    }
+    .services-card button{
+        justify-content: flex-end;
+    }
+/* ================= */
+    .references-card{
+        width: 12em;
+        height: 12em;
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+/* ================= */
+    .commentaires{
+        flex-direction: row;
+    }
+    .commentaire-img{
+        width: 55%;
+    }
+    .post-commentaire{
+        width: 35%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

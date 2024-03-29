@@ -6,11 +6,14 @@
     <title>Rural Web Factory - Accueil</title>
     <!-- <meta name="description" content=""> -->
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/template.css">
+    <link rel="stylesheet" href="./css/temp-index.css">
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
+<!-- La partie header se compose en 3 parties
+Infos / Presentation / Navbar -->
     <header>
+<!-- Informations -->
         <div class="header-infos-reseaux">
             <div class="header-infos">
                 <a href="./pages/devis.html">Vous avez un projet ?</a>
@@ -23,16 +26,18 @@
                 <a href="https://www.youtube.com" target="_blank"><img src="./img/logo-youtube.svg"></img></a>
             </div>
         </div>
+<!-- Présentation -->
         <div class="header-presentation flex">
             <div class="header-titre flex">
                 <img src="./img/logo-RWF-removebg-preview2.png" alt="#">
-                <h1>Rural Web Factory</h1>
+                <h1>Net'Nature</h1>
             </div>
             <div class="compte flex">
                 <img class="messagerie" src="./img/letter.svg" alt="#">
                 <img class="profil" src="./img/photo.jpg" alt="#">
             </div>
         </div>
+<!-- Navbar -->
         <div class="navbar flex">
             <nav>
                 <ul>
@@ -51,14 +56,19 @@
             </div>
         </div>
     </header>
-    <!-- <form action="https://google.com">
-        <input type="submit" value="Go to Google" />
-    </form> -->
+
+    <!-- TRANSFORMATION DE BOUTON EN A HREF 
+        <form action="https://google.com">
+            <input type="submit" value="Go to Google" />
+        </form> -->
+
     <main>
         <section class="presentation flex">
             <div class="presentation-texte">
                 <h2>Qui sommes nous ?</h2>
-                <p>La "Rural Web Factory" est une agence crée de développement WEB crée par les ancients apprennants de l'école du même nom. Faire du WEB ne signifie pas au détriment de notre belle mère nature, nous sommes fière de faire du développement en "ESS" et dans cette idée nous nous mettons votre disposition dans la réalisations de projets, documents graphiques au projet complexe, nous sommes la pour vous !</p>
+                <p>
+                    La "Rural Web Factory" est une agence crée de développement WEB crée par les ancients apprennants de l'école du même nom. Faire du WEB ne signifie pas au détriment de notre belle mère nature, nous sommes fière de faire du développement en "ESS" et dans cette idée nous nous mettons votre disposition dans la réalisations de projets, documents graphiques au projet complexe, nous sommes la pour vous !
+                </p>
                 <div class="presentation-buttons">
                     <button id="RDV">Venez prendre rendez-vous</button>
                     <button>Nous recrutons</button>
@@ -71,8 +81,9 @@
         <section class="services">
             <div class="services-texte">
                 <h2>Nos services</h2>
-                <!-- <p>Découvrez nos différents services</p> -->
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam et fugit ab quis repudiandae, eaque pariatur voluptates ducimus dolorem natus placeat. Asperiores omnis soluta, voluptatum quidem doloribus eveniet doloremque minus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam et fugit ab quis repudiandae, eaque pariatur voluptates ducimus dolorem natus placeat. Asperiores omnis soluta, voluptatum quidem doloribus eveniet doloremque minus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam et fugit ab quis repudiandae, eaque pariatur voluptates ducimus dolorem natus placeat. Asperiores omnis soluta, voluptatum quidem doloribus eveniet doloremque minus.</p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam et fugit ab quis repudiandae, eaque pariatur voluptates ducimus dolorem natus placeat. Asperiores omnis soluta, voluptatum quidem doloribus eveniet doloremque minus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam et fugit ab quis repudiandae, eaque pariatur voluptates ducimus dolorem natus placeat. Asperiores omnis soluta, voluptatum quidem doloribus eveniet doloremque minus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam et fugit ab quis repudiandae, eaque pariatur voluptates ducimus dolorem natus placeat. Asperiores omnis soluta, voluptatum quidem doloribus eveniet doloremque minus.
+                </p>
             </div>
             <div class="services-cards flex">
                 <div class="services-card">
@@ -126,32 +137,32 @@
         </div>
         <section class="references">
             <div class="references-cards flex">
-                <a href="./pages/violon.html" id="violon" class="references-card">
-                    <h3>Violon Voyageur</h3>
-                </a>
-                <a href="./pages/carafe.html" id="caraf" class="references-card">
-                    <h3>Carafe à Rire</h3>
-                </a>
-                <a href="./pages/pelle.html" id="pelle" class="references-card">
-                    <h3>Pelle à Mystères</h3>
-                </a>
-                <a href="./pages/loutre.html" id="louttre" class="references-card">
-                    <h3>Loutre Express</h3>
-                </a>
+                    <a href="./pages/violon.html" id="violon" class="references-card">
+                        <h3>Violon Voyageur</h3>
+                    </a>
+                    <a href="./pages/carafe.html" id="caraf" class="references-card">
+                        <h3>Carafe à Rire</h3>
+                    </a>
+                    <a href="./pages/pelle.html" id="pelle" class="references-card">
+                        <h3>Pelle à Mystères</h3>
+                    </a>
+                    <a href="./pages/loutre.html" id="louttre" class="references-card">
+                        <h3>Loutre Express</h3>
+                    </a>
             </div>
             <div class="references-cards flex">
-                <a href="./pages/voiture.html" id="voiture" class="references-card">
-                    <h3>Voiture Farfelue</h3>
-                </a>
-                <a href="./pages/grimoire.html" id="grimoire" class="references-card">
-                    <h3>Grimoire Magique</h3>
-                </a>
-                <a href="./pages/medecin.html" id="medecin" class="references-card">
-                    <h3>Médecin Rigolo</h3>
-                </a>
-                <a href="./pages/train.html" id="train" class="references-card">
-                    <h3>Train des Merveilles</h3>
-                </a>
+                    <a href="./pages/voiture.html" id="voiture" class="references-card">
+                        <h3>Voiture Farfelue</h3>
+                    </a>
+                    <a href="./pages/grimoire.html" id="grimoire" class="references-card">
+                        <h3>Grimoire Magique</h3>
+                    </a>
+                    <a href="./pages/medecin.html" id="medecin" class="references-card">
+                        <h3>Médecin Rigolo</h3>
+                    </a>
+                    <a href="./pages/train.html" id="train" class="references-card">
+                        <h3>Train des Merveilles</h3>
+                    </a>
             </div>
             <div class="references-end-texte">
                 <p>Ces projets vous interesse ?</p>
@@ -160,12 +171,14 @@
         </section>
         <div class="interlude-eau"></div>
         <section class="commentaires flex">
-            <div class="commentaire-img">
-                <img src="./img/avista.jpg" alt="">
-            </div>
+            <!-- <div class="commentaire-img"> -->
+                <img class="commentaire-img" src="./img/avista.jpg" alt="#">
+            <!-- </div> -->
             <div class="post-commentaire">
                 <h2>Commentaires</h2>
-                <p>Si vous aussi vous voulez laisser un commentaire, sentez vous libre de le faire juste en dessous</p>
+                <p>
+                    Si vous aussi vous voulez laisser un commentaire, sentez vous libre de le faire juste en dessous
+                </p>
                 <div class="post">
                     <textarea name="" id="" cols="30" rows="10"></textarea>
                     <button>ENVOYER</button>
@@ -177,51 +190,59 @@
     <footer>
         <!-- <div class="ligne-footer"></div> -->
         <div class="footer-all flex">
-            <div class="footer-card">
-                <p>AGENCE WEB</p>
-                <a href="#">Agence de communication digitale</a>
-                <a href="#">samyngwenaelpro@gmail.com</a>
-                <a href="#">Contact webdesign<br>00 00 00 00 00</a>
-                <a href="#">Contact programmation<br>00 00 00 00 00</a>
+            <div class="dropdown">
+                <button class="button">AGENCE WEB</button>
+                <div class="content">
+                    <a href="#">Agence de communication digitale</a>
+                    <a href="#">samyngwenaelpro@gmail.com</a>
+                    <a href="#">Contact webdesign<br>00 00 00 00 00</a>
+                    <a href="#">Contact programmation<br>00 00 00 00 00</a>
+                </div>
             </div>
-            <div class="footer-card">
-                <p>CREATION DE SITE INTERNET</p>
-                <a href="#">Gestion de projet</a>
-                <a href="#">Webdesign</a>
-                <a href="#">Identité visuelle</a>
-                <a href="#">Développement</a>
-                <a href="#">Intégration</a>
-                <a href="#">Hébérgement</a>
-                <a href="#">Webmarketing</a>
-                <a href="#">Référencement naturel</a>
-                <a href="#">E-mailing</a>
-                <a href="#">Infogérance</a>
+            <div class="dropdown">
+                <button class="button">CREATION DE SITE INTERNET</button>
+                <div class="content">
+                    <a href="#">Gestion de projet</a>
+                    <a href="#">Webdesign</a>
+                    <a href="#">Identité visuelle</a>
+                    <a href="#">Développement</a>
+                    <a href="#">Intégration</a>
+                    <a href="#">Hébérgement</a>
+                    <a href="#">Webmarketing</a>
+                    <a href="#">Référencement naturel</a>
+                    <a href="#">E-mailing</a>
+                    <a href="#">Infogérance</a>
+                </div>
             </div>
-            <div class="footer-card">
-                <p>DOMAINES D'ACTIVITE</p>
-                <a href="#">Création de site ecommerce</a>
-                <a href="#">Création de site institutionnel</a>
-                <a href="#">Création de site de marque</a>
-                <a href="#">Création de site vitrine</a>
-                <a href="#">Création de site catalogue</a>
-                <a href="#">Refonte de site</a>
-                <a href="#">Responsive design</a>
-                <a href="#">Création de site avec CMS</a>
-                <a href="#">Paiement en ligne</a>
-                <a href="#">Interfacage</a>
+            <div class="dropdown">
+                <button class="button">DOMAINES D'ACTIVITE</button>
+                <div class="content">
+                    <a href="#">Création de site ecommerce</a>
+                    <a href="#">Création de site institutionnel</a>
+                    <a href="#">Création de site de marque</a>
+                    <a href="#">Création de site vitrine</a>
+                    <a href="#">Création de site catalogue</a>
+                    <a href="#">Refonte de site</a>
+                    <a href="#">Responsive design</a>
+                    <a href="#">Création de site avec CMS</a>
+                    <a href="#">Paiement en ligne</a>
+                    <a href="#">Interfacage</a>
+                </div>
             </div>
-            <div class="footer-card">
-                <p>LEGISLATION</p>
-                <a href="#">RGPD</a>
-                <a href="#">CGU</a>
-                <a href="#">CGS</a>
-                <a href="#">CGV</a>
-                <a href="#">Accessibilité : non conforme</a>
-                <a href="#">Facil'iti</a>
-                <a href="#">Cookies</a>
+            <div class="dropdown">
+                <button class="button">LEGISLATION</button>
+                <div class="content flex">
+                    <a href="#">RGPD</a>
+                    <a href="#">CGU</a>
+                    <a href="#">CGS</a>
+                    <a href="#">CGV</a>
+                    <a href="#">Accessibilité : non conforme</a>
+                    <a href="#">Facil'iti</a>
+                    <a href="#">Cookies</a>
+                </div>
             </div>
         </div>
-        <div class="footer-end">
+        <div class="footer-end flex">
             <a href="#">Agence web</a>
             <span>|</span>
             <a href="./pages/devis.html">Devis en ligne</a>
