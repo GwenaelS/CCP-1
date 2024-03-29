@@ -3,7 +3,7 @@
 ======================================================= */
 .presentation{
     min-height: 70vh;
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/background-forest.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
@@ -57,7 +57,7 @@
 .services{
     min-height: 100vh;
     text-align: center;
-    background-image: url(../img/dirt.jpg);
+    background-image: url(../img/background-dirt.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -141,7 +141,7 @@
     /* max-height: 100vh; */
     text-align: center;
     padding-top: 18em;
-    background-image: url(../img/cave3.jpg);
+    background-image: url(../img/background-cave.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -172,26 +172,11 @@
 #violon{
     background-image: url(../img/violon.jpeg);
 }
-#caraf{
-    background-image: url(../img/caraf.jpeg);
-}
-#pelle{
-    background-image: url(../img/pelle.jpeg);
-}
-#louttre{
-    background-image: url(../img/animal.jpeg);
-}
-#voiture{
-    background-image: url(../img/voiture.jpeg);
+#loutre{
+    background-image: url(../img/loutre.jpeg);
 }
 #grimoire{
     background-image: url(../img/grimoire.jpeg);
-}
-#medecin{
-    background-image: url(../img/medecin.jpeg);
-}
-#train{
-    background-image: url(../img/train.jpeg);
 }
 /* ================================ */
 .references-end-texte{
@@ -226,7 +211,7 @@
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
-    background-image: url(../img/water3.jpg);
+    background-image: url(../img/background-water.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -273,6 +258,8 @@
     0 to 600px
     601px to 766px
     767px to 992px
+    993px to 1119px
+    1200px to 2000px
 
 ======================================================= */
 
@@ -420,7 +407,9 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
+    .header-infos-reseaux, .navbar{
+        display: flex;
+    }
 /* ================= */
     .services-texte{
         padding-top: 3em;
@@ -456,7 +445,49 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {
+    
+    .services-texte{
+        padding-top: 1em;
+        width: 70%;
+    }
+    .services-texte p{
+        padding-top: 8em;
+    }
+    .services-card{
+        max-width: 20%;
+        margin: 0 1em;
+    }
+    .interlude-terre-txt{
+        width: 55%;
+    }
+    .references-card{
+        width: 12em;
+        height: 12em;
+        margin: 1em 2em;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) and (max-width: 2000px) {
+    .services-texte{
+        padding-top: 13em;
+        width: 60%;
+    }
+    .services-texte p{
+        padding-top: 2em;
+    }
+    .services-card{
+        max-width: 15%;
+        margin: 0 1em;
+    }
+    .references-card{
+        width: 15em;
+        height: 15em;
+    }
+}
+/* @media only screen and (min-width: 2001px){
+    body{
+
+    }
+} */
