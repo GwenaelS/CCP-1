@@ -182,6 +182,12 @@
 #gem{
     background-image: url(../img/gem.jpg);
 }
+#arbre{
+    background-image: url(../img/arbre.jpg);
+}
+#potion{
+    background-image: url(../img/potion.jpg);
+}
 /* ================================ */
 .references-end-texte{
     width: 50%;
