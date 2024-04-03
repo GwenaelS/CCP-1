@@ -282,12 +282,42 @@
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
-    .header-infos-reseaux, h1, .navbar, .presentation-img{
+    .header-infos-reseaux, h1, #home, .presentation-img{
         display: none;
     }
     h2{
         font-size: 2rem;
     }
+    #icons{
+        display: block;
+    }
+    #icons::before{
+        content: "\2630";
+        position: relative;
+    }
+    .active#icons::before{
+        content: "\2715";
+    }
+    .navbar ul{
+        display: flex;
+        background-color: green;
+    }
+    .navbar.active ul{
+        /* background-color: purple; */
+        display: flex;
+    }
+    .navbar ul{
+        display: none;
+        position: absolute;
+        z-index: 1;
+        flex-direction: column;
+        background-color: yellow;
+        padding-bottom: 2em;
+    }
+    .navbar li{
+        padding: 0.3em 0;
+    }
+    
 /* ===================================== */
     .presentation-texte{
         width: 80%;
@@ -350,7 +380,7 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .header-infos-reseaux, .navbar{
+    .header-infos-reseaux, .navbar ul{
         display: none;
     }
     h2{
@@ -423,7 +453,7 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .header-infos-reseaux, .navbar{
+    .header-infos-reseaux, .navbar ul{
         display: flex;
     }
 /* ================= */
