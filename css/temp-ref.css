@@ -1,70 +1,37 @@
-main{
-    background-image: url(../img/forest2.jpg);
+body{
+    background-image: url(../img/forest.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+main{
     color: white;
-    /* text-shadow: 2px 2px 1px black; */
+    text-shadow: 2px 2px 1px black;
 }
 h2{
     margin-top: 0.5em;
 }
 /* =================================== */
 .ref-presentation{
+    padding: 2em 0;
     justify-content: space-evenly;
-    align-items: center;
 }
 .ref-presentation p{
     margin: 1em 0;
-}
-.arianne{
-    margin-left: 1em;
-}
-.arianne ul{
-    display: flex;
-}
-.arianne li{
-    display: inline;
-}
-.arianne a{
-    cursor: default;
-    color: black;
-    text-decoration: none;
-    position: relative;
-    background-color: lightgray;
-    margin-right: 1.5em;
-    padding: 0.5em 1em;
-}
-.arianne a::before,
-.arianne a::after{
-    content: "";
-    position: absolute;
-    border-color: lightgray;
-    border-style: solid;
-    border-width: 1.05em 15px;
-    top: 0;
-}
-.arianne a::before{
-    left: -1em;
-    border-left-color: transparent;
-}
-.arianne a::after{
-    left: 100%;
-    border-color: transparent;
-    border-left-color: lightgray;
 }
 /* =================================== */
 .reference-preview{
     width: 90%;
     margin: 0 auto;
     justify-content: space-around;
-    border-top: solid 5px black;
+    border-top: solid 5px white;
+    border-bottom: solid 5px white;
+    padding: 1.5em 0;
     align-items: center;
 }
 /* =================================== */
 .ref-content{
     width: 30%;
-    height: 100%;
-    padding: 1em 0 0em 2em;
+    padding: 1em 0 0 4em;
     backdrop-filter: blur(4px) saturate(170%);
     -webkit-backdrop-filter: blur(4px) saturate(170%);
     background-color: rgba(32, 35, 41, 0.4);
@@ -87,6 +54,59 @@ h2{
     color: white;
 }
 /* =================================== */
-.ref-image{
-    max-width: 60%;
+.ref-image img{
+    max-width: 100%;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+
+.footer-all{
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+/* ===================================== */
+.dropdown{
+    margin: 1em 0;
+    display: inline-block;
+}
+.dropdown button{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: hsl(0, 0%,705%);
+}
+.dropdown a:hover{
+    background-color: hsl(0, 0%, 90%);
+}
+/* ===================================== */
+.footer-end{
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-end a{
+    color: white;
+    text-decoration: none;
 }

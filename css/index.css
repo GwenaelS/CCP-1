@@ -188,6 +188,12 @@
 #potion{
     background-image: url(../img/potion.jpg);
 }
+#druide{
+    background-image: url(../img/druide.jpg);
+}
+#futhark{
+    background-image: url(../img/futhark.jpg);
+}
 /* ================================ */
 .references-end-texte{
     width: 50%;

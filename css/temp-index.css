@@ -12,7 +12,6 @@ h2, h3{
     font-weight: 600;
 }
 h1{
-    font-size: 4rem;
     margin-left: 0.5em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
@@ -122,9 +121,9 @@ footer{
     background-position: center;
 }
 .footer-all{
-    flex-direction: column;
+    justify-content: space-around;
+    padding: 2em 3em 5em 3em;
     align-items: center;
-    padding: 3em;
 }
 /* ===================================== */
 .dropdown{
@@ -162,6 +161,7 @@ footer{
 }
 /* ===================================== */
 .footer-end{
+    margin-top: 15em;
     padding: 1em;
     display: flex;
     justify-content: space-around;
