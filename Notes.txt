@@ -1,0 +1,20 @@
+Ce que je dois faire :
+
+-Menu burger responsive
+-Slider d'avis
+-Footer responsive
+[BONUS ANIMATIONS D'APPARITION]
+
+-Page "Agenda" (responsive)
+-Slider actualité
+-Calendrier
+
+-Page "Contact" (responsive)
+-Formulaire intéractif
+
+-Page "Devis" (responsive)
+-Formulaire intéractif qui renvoit retour des informations
+
+=========================================================================
+
+DOCUMENTS AGILES :

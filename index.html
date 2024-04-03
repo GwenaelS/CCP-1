@@ -4,48 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Net'Nature - Accueil</title>
-    <link rel="shortcut icon" href="./img/logo-RWF.png" type="image/png">
+    <link rel="shortcut icon" href="./img/logo-NN.png" type="image/png">
     <!-- <meta name="description" content=""> -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/temp-index.css">
     <link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
-<!-- La partie header se compose en 3 parties
-Infos / Presentation / Navbar -->
+<!-- LA PARTIE HEADER SE DECOMPOSE EN 3 PARTIES
+INFOS / PRESENTATION / NAVBAR -->
     <header>
-<!-- Informations -->
+<!-- INFOS / RESEAUX -->
         <div class="header-infos-reseaux">
             <div class="header-infos">
                 <a href="./pages/devis.html">Vous avez un projet ?</a>
                 <a href="#">samyngwenaelpro@gmail.com</a>
             </div>
             <div class="header-reseaux">
-                <a href="https://www.facebook.com" target="_blank"><img src="./img/logo-facebook.svg"></img></a>
-                <a href="https://fr.linkedin.com" target="_blank"><img src="./img/logo-linkedin.svg"></img></a>
-                <a href="https://twitter.com/?lang=fr" target="_blank"><img src="./img/logo-twitter.svg"></img></a>
-                <a href="https://www.youtube.com" target="_blank"><img src="./img/logo-youtube.svg"></img></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="./img/logo-facebook.svg" alt="Facebook" title="Facebook"></a>
+                <a href="https://fr.linkedin.com" target="_blank"><img src="./img/logo-linkedin.svg" alt="LinkedIn" title="LinkedIn"></a>
+                <a href="https://twitter.com/?lang=fr" target="_blank"><img src="./img/logo-twitter.svg" alt="Twitter" title="Twitter"></a>
+                <a href="https://www.youtube.com" target="_blank"><img src="./img/logo-youtube.svg" alt="Youtube" title="Youtube"></a>
             </div>
         </div>
-<!-- Présentation -->
+<!-- PRESENTATION ET PROFIL -->
         <div class="header-presentation flex">
             <div class="header-titre flex">
-                <img src="./img/logo-RWF.png" alt="#">
+                <img src="./img/logo-NN.png" alt="Logo Net'Nature" title="Logo Net'Nature">
                 <h1>Net'Nature</h1>
             </div>
             <div class="compte flex">
-                <img class="messagerie" src="./img/letter.svg" alt="#">
-                <img class="profil" src="./img/photo.jpg" alt="#">
+                <img class="messagerie" src="./img/letter.svg" alt="Messagerie" title="Messagerie">
+                <img class="profil" src="./img/photo.jpg" alt="Profil" title="Profil">
             </div>
         </div>
-<!-- MENU BURGER -->
-        
 <!-- NAVBAR -->
         <div class="navbar flex">
             <nav>
+                <!-- POUR MENU BURGER -->
                 <div id="icons"></div>
                 <ul>
-                    <li><a href="./index.html"><img id="home" src="./img/home.svg" alt="#"></a></li>
+                    <li><a href="./index.html"><img id="home" src="./img/home.svg" alt="Accueil" title="Accueil"></a></li>
                     <li><a href="#">L'agence</a></li>
                     <li><a href="#">Formations</a></li>
                     <li><a href="#">Services</a></li>
@@ -61,12 +61,19 @@ Infos / Presentation / Navbar -->
         </div>
     </header>
 
-    <!-- TRANSFORMATION DE BOUTON EN A HREF 
-        <form action="https://google.com">
-            <input type="submit" value="Go to Google" />
-        </form> -->
+
+<!-- 
+LE CONTENU PRINCIPALE SE DECOMPOSE EN 4 SECTIONS (ET CONTIENT DES INTERLUDES)
+-PRESENTATION
+-SERVICES (interlude terre)
+-REFERENCES (interlude eau)
+-COMMENTAIRES (interlude lave) -->
 
     <main>
+<!-- SECTION 
+    PRESENTATION -->
+
+
         <section class="presentation flex">
             <div class="presentation-texte">
                 <h2>Qui sommes nous ?</h2>
@@ -79,9 +86,15 @@ Infos / Presentation / Navbar -->
                 </div>
             </div>
             <div class="presentation-img">
-                <img src="./img/web-design.png" alt="#">
+                <img src="./img/web-design.png" alt="Design WEB" title="Design WEB">
             </div>
         </section>
+
+
+<!-- SECTION 
+    SERVICES -->
+
+
         <section class="services">
             <div class="services-texte">
                 <h2>Nos services</h2>
@@ -96,7 +109,7 @@ Infos / Presentation / Navbar -->
                         Chaque formation que nous vous proposont est une fenêtre ouverte sur l’avenir et l'amélioration de soi, une invitation à repousser les frontières du possible et où chaque pixel peut raconter une histoire passionnante.
                     </p>
                     <div>
-                        <img src="./img/formation-logo.png">
+                        <img src="./img/formation-logo.png" alt="Formation" title="Formation">
                     </div>
                     <button>Trouver votre formation</button>
                 </div>
@@ -106,7 +119,7 @@ Infos / Presentation / Navbar -->
                         Le web design désigne, dans la conception de site internet, la création et la mise en forme de toute la partie visible du site. C’est-à-dire : Concevoir le site internet ou l’application autour de l’expérience utilisateur.
                     </p>
                     <div>
-                        <img src="./img/design-logo.png">
+                        <img src="./img/design-logo.png" alt="Design" title="Design">
                     </div>
                     <button>Demandez votre design</button>
                 </div>
@@ -116,7 +129,7 @@ Infos / Presentation / Navbar -->
                         Une danse entre stratégie et créativité, où chaque campagne est une épopée, chaque clic une conquête. Le marketing tisse des récits captivants, invitant le monde à découvrir, à interagir, et à s’engager.
                     </p>
                     <div>
-                        <img src="./img/marketing-logo.png">
+                        <img src="./img/marketing-logo.png" alt="Marketing" title="Marketing">
                     </div>
                     <button>Campagne marketique</button>
                 </div>
@@ -125,12 +138,18 @@ Infos / Presentation / Navbar -->
                         L’hébergement web stocke vos contenus, données et applications sur un serveur connecté à Internet. Que vous débutiez sur le Web ou ayez des projets multisites, découvrez nos offres d’hébergement de site WEB.
                     </p>
                     <div>
-                        <img src="./img/site-web-logo.png">
+                        <img src="./img/site-web-logo.png" alt="Hébergement" title="Hébergement">
                     </div>
                     <button>Acheter un hébergeur</button>
                 </div>
             </div>
         </section>
+
+
+<!-- INTERLUDE 
+    TERRE -->
+
+
         <div class="interlude-terre">
             <div class="interlude-terre-txt">
                 <h2>Nos références</h2>
@@ -139,32 +158,62 @@ Infos / Presentation / Navbar -->
                 </p>
             </div>
         </div>
+
+
+<!-- SECTION 
+    REFERENCES -->
+
+
         <section class="references">
             <div class="references-cards flex">
-                    <a href="./pages/violon.html" id="violon" class="references-card">
+                    <a href="./pages/violon.html" 
+                        id="violon" 
+                        class="references-card"
+                        title="Mélodie Eternelle">
                         <h3>Mélodie Éternelle</h3>
                     </a>
-                    <a href="#" id="loutre" class="references-card">
+                    <a href="#" 
+                        id="loutre" 
+                        class="references-card"
+                        title="ÉcoPattes">
                         <h3>ÉcoPattes</h3>
                     </a>
-                    <a href="#" id="grimoire" class="references-card">
+                    <a href="#" 
+                        id="grimoire" 
+                        class="references-card"
+                        title="Arcanum Librairie">
                         <h3>Arcanum Librairie</h3>
                     </a>
-                    <a href="#" id="gem" class="references-card">
+                    <a href="#" 
+                        id="gem" 
+                        class="references-card"
+                        title="Crystal Gems">
                         <h3>Crystal Gems</h3>
                     </a>
             </div>
             <div class="references-cards flex">
-                    <a href="#" id="arbre" class="references-card">
+                    <a href="#" 
+                        id="arbre" 
+                        class="references-card"
+                        title="L’Atelier Floral">
                         <h3>L’Atelier Floral</h3>
                     </a>
-                    <a href="#" id="potion" class="references-card">
+                    <a href="#" 
+                        id="potion" 
+                        class="references-card"
+                        title="Sortilèges Aromatiques">
                         <h3>Sortilèges Aromatiques</h3>
                     </a>
-                    <a href="#" id="druide" class="references-card">
+                    <a href="#" 
+                        id="druide" 
+                        class="references-card"
+                        title="Bosquet d'émeraude">
                         <h3>Bosquet d'émeraude</h3>
                     </a>
-                    <a href="#" id="futhark" class="references-card">
+                    <a href="#" 
+                        id="futhark" 
+                        class="references-card"
+                        title="Viking'reborn">
                         <h3>Viking'reborn</h3>
                     </a>
             </div>
@@ -173,7 +222,17 @@ Infos / Presentation / Navbar -->
                 <button>Alors commandez en un des maintenant !</button>
             </div>
         </section>
+
+
+<!-- INTERLUDE 
+    EAU -->
+
         <div class="interlude-eau"></div>
+
+<!-- SECTION 
+    COMMENTAIRES -->
+
+
         <section class="commentaires flex">
             <img class="commentaire-img" src="./img/avis.jpg" alt="#">
             <div class="post-commentaire">
@@ -182,13 +241,19 @@ Infos / Presentation / Navbar -->
                     Si vous aussi vous voulez laisser un commentaire, sentez vous libre de le faire juste en dessous
                 </p>
                 <div class="post">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea name="" id=""></textarea>
                     <button>ENVOYER</button>
                 </div>
             </div>
         </section>
+
+<!-- INTERLUDE 
+    LAVE -->
+        
         <div class="interlude-lave"></div>
     </main>
+
+
     <footer>
         <div class="footer-all flex">
             <div class="dropdown">
