@@ -55,8 +55,8 @@ h2{
     color: white;
 }
 /* =================================== */
-.ref-image img{
-    max-width: 100%;
+.ref-image{
+    max-width: 40%;
     border-radius: 50px;
     border: 2px solid white;
 }

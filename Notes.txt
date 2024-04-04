@@ -2,8 +2,6 @@ Ce que je dois faire :
 
 -Menu burger responsive
 -Slider d'avis
--Footer responsive
-[BONUS ANIMATIONS D'APPARITION]
 
 -Page "Agenda" (responsive)
 -Slider actualité
@@ -17,4 +15,7 @@ Ce que je dois faire :
 
 =========================================================================
 
-DOCUMENTS AGILES :
+DOCUMENTS :
+
+-CAHIER DES CHARGES
+-MAQUETTES (page accueil) / (image responsive)

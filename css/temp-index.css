@@ -80,9 +80,9 @@ header{
 .navbar{
     justify-content: space-between;
     align-items: center;
+    padding: 1em 0;
 }
 nav{
-    padding: 1em;
     width: 80%;
 }
 nav ul{
@@ -114,7 +114,6 @@ nav a:hover{
     FOOTER
 ======================================================= */
 footer{
-    width: 100%;
     background-image: url(../img/background-lava.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,8 +121,9 @@ footer{
 }
 .footer-all{
     justify-content: space-around;
-    padding: 2em 3em 5em 3em;
+    padding: 3em 0 5em 0;
     align-items: center;
+    flex-wrap: wrap;
 }
 /* ===================================== */
 .dropdown{
@@ -131,7 +131,8 @@ footer{
     display: inline-block;
 }
 .dropdown button{
-    background-color: hsl(0, 0%, 80%);
+    background-color: hsl(0, 1%, 26%);
+    text-shadow: 2px 2px 1px black;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -146,6 +147,7 @@ footer{
 .dropdown .content{
     display: none;
     position: absolute;
+    z-index: 1;
     background-color: hsl(0, 0%, 95%);
     min-width: 100px;
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
@@ -154,19 +156,34 @@ footer{
     display: block;
 }
 .dropdown:hover button{
-    background-color: hsl(0, 0%,705%);
+    background-color: hsl(0, 1%, 56%);
 }
 .dropdown a:hover{
     background-color: hsl(0, 0%, 90%);
 }
 /* ===================================== */
+.footer-reseaux{
+    justify-content: space-around;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 2em 0;
+}
+.footer-reseaux img{
+    width: 75%;
+    border-radius: 50%;
+}
+/* ===================================== */
 .footer-end{
-    margin-top: 15em;
+    margin-top: 10em;
     padding: 1em;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .footer-end a{
-    color: white;
+    margin: 0.2em 0;
     text-decoration: none;
 }

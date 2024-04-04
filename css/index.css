@@ -249,36 +249,32 @@ h2, h3, p{
     h2{
         font-size: 2rem;
     }
-    #icons{
-        display: block;
-    }
-    #icons::before{
-        content: "\2630";
+    .navbar{
+        margin: 0 2em;
+        justify-content: space-between;
         position: relative;
     }
-    .active#icons::before{
-        content: "\2715";
+    .search-bar{
+        margin: 0;
+        width: 25%;
     }
-    .navbar ul{
-        display: flex;
-        background-color: green;
+    .menu-burger{
+        display: block;
     }
-    .navbar.active ul{
-        /* background-color: purple; */
-        display: flex;
-    }
-    .navbar ul{
-        display: none;
+    nav{
         position: absolute;
+        background-color: red;
+        width: 50%;
+        bottom: -205px;
         z-index: 1;
+    }
+    nav ul{
         flex-direction: column;
-        background-color: yellow;
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
-    .navbar li{
-        padding: 0.3em 0;
+    nav ul li{
+        margin: 3px 0;
     }
-    
 /* ===================================== */
     .presentation-texte{
         width: 80%;
@@ -334,15 +330,13 @@ h2, h3, p{
         align-items: center;
     }
     .footer-end a{
-        padding: 2px;
         text-align: center;
-        border: solid 2px white;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .header-infos-reseaux, .navbar ul{
+    .header-infos-reseaux, #home{
         display: none;
     }
     h2{
@@ -350,6 +344,32 @@ h2, h3, p{
     }
     h1{
         font-size: 3rem;
+    }
+    .navbar{
+        margin: 0 2em;
+        justify-content: space-between;
+        position: relative;
+    }
+    .search-bar{
+        margin: 0;
+        width: 25%;
+    }
+    .menu-burger{
+        display: block;
+    }
+    nav{
+        position: absolute;
+        background-color: red;
+        width: 50%;
+        bottom: -205px;
+        z-index: 1;
+    }
+    nav ul{
+        flex-direction: column;
+        padding-bottom: 1em;
+    }
+    nav ul li{
+        margin: 3px 0;
     }
 /* ================= */
     nav li a{
@@ -407,17 +427,52 @@ h2, h3, p{
     .footer-end a{
         display: flex;
         align-items: center;
-        padding: 2px;
         text-align: center;
-        border: solid 2px white;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .header-infos-reseaux, .navbar ul{
+    .menu-burger{
+        display: none;
+    }
+    .header-infos-reseaux{
         display: flex;
     }
+
+
+    #home{
+        display: inline-block
+    }
+    .navbar{
+        margin: 0;
+    }
+    nav{
+        width: 80%;
+        position: static;
+        background-color: transparent;
+    }
+    nav ul{
+        flex-direction: row;
+        padding: 0;
+    }
+    nav li a{
+        padding: 0.5em 1em;
+    }
+    #home{
+        max-width: 1rem;
+    }
+    .search-bar{
+        width: 10%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .search-bar input{
+        max-width: 100%;
+    }
+
+
+
 /* ================= */
     .services-texte{
         padding-top: 3em;
