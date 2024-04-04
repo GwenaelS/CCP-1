@@ -2,15 +2,12 @@ Ce que je dois faire :
 
 -Menu burger responsive
 -Slider d'avis
-
--Page "Agenda" (responsive)
 -Slider actualité
--Calendrier
 
--Page "Contact" (responsive)
+-Page "Contact"
 -Formulaire intéractif
 
--Page "Devis" (responsive)
+-Page "Devis"
 -Formulaire intéractif qui renvoit retour des informations
 
 =========================================================================

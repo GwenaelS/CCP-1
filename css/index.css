@@ -130,17 +130,6 @@ h2, h3, p{
     border-radius: 10px;
     width: 100%;
 }
-/* .references-card-hidden{
-    background-color: black;
-    width: 15em;
-    height: 15em;
-    position: absolute;
-    z-index: 1;
-    opacity: 0;
-}
-.references-card-hidden:hover{
-    opacity: 0.5;
-} */
 .references-card h3{
     position: absolute;
 }
