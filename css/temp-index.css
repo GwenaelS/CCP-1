@@ -77,10 +77,6 @@ header{
 /* =======================================================
     HEADER
 ======================================================= */
-#icons{
-    cursor: pointer;
-    display: none;
-}
 .navbar{
     justify-content: space-between;
     align-items: center;
@@ -174,4 +170,3 @@ footer{
     color: white;
     text-decoration: none;
 }
-

@@ -6,7 +6,10 @@
     border-radius: 10px;
     padding: 0.8em 1.5em;
 }
-
+h2, h3, p{
+    text-shadow: 2px 2px 1px black;
+    color: white;
+}
 
 /* =======================================================
     PRESENTATION SECTION
@@ -19,14 +22,12 @@
 }
 /* ================================ */
 .presentation-texte{
-    color: white;
     padding: 2em;
     margin: 5vh;
     width: 40%;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.125);
     border-radius: 50px;
-    text-shadow: 2px 2px 1px black;
 }
 .presentation-texte h2{
     margin: 2vh 0;
@@ -35,11 +36,7 @@
     margin-bottom: 4vh;
 }
 .presentation-buttons{
-    display: flex;
     justify-content: flex-end;
-}
-.presentation-buttons button{
-    
 }
 #RDV{
     margin-right: 1em;
@@ -47,8 +44,7 @@
 /* ================================ */
 .presentation-img{
     width: 30%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 .presentation-img img{
     max-width: 100%;
@@ -60,31 +56,24 @@
     min-height: 100vh;
     text-align: center;
     background-image: url(../img/background-dirt.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
 }
 /* ================================ */
 .services-texte{
     padding-top: 20vh;
     width: 50%;
-    margin: 0 auto;
-    color: white;
-    text-shadow: 2px 2px black;
+    margin: auto;
 }
 .services-texte p{
-    padding: 5vh 0 5vh 0;
-    margin: 0 auto 0 auto;
-    text-shadow: 2px 2px 1px black;
+    padding: 5vh 0;
 }
 /* ================================ */
 .services-cards{
     justify-content: center;
     padding-bottom: 5vh;
-    text-shadow: 2px 2px black;
 }
 /* ================================ */
 .services-card{
-    color: white;
     min-height: 40vh;
     max-width: 15%;
     margin: 0 1em;
@@ -106,25 +95,12 @@
 .services-card img{
     margin: 1.5em 0;
 }
-.services-card button{
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
-    background-color: white;
-    border: solid 2px black;
-    border-radius: 10px;
-    padding: 0.8em 1.5em;
-}
 /* =======================================================
     INTERLUDE TERRE
 ======================================================= */
 .interlude-terre{
-    color: white;
     background-image: linear-gradient(#4C230F,#0E0002);
     text-align: center;
-    align-items: center;
-    text-shadow: 2px 2px black;
-    
 }
 .interlude-terre-txt{
     margin: 0 auto;
@@ -132,20 +108,15 @@
     padding: 5em 0;
 }
 .interlude-terre-txt p{
-
     padding-top: 2em;
-
 }
 /* =======================================================
     REFERENCES SECTION
 ======================================================= */
 .references{
-    color: white;
-    /* max-height: 100vh; */
     text-align: center;
     padding-top: 18em;
     background-image: url(../img/background-cave.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -155,65 +126,55 @@
 }
 /* ================================ */
 .references-card{
+    position: relative;
     width: 15em;
     height: 15em;
     margin: 1em 2em;
-    color: white;
-    text-shadow: 2px 2px black;
     text-decoration: none;
-    border-radius: 10px;
-    background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* box-shadow:  -10px -10px 30px #bebebe,
-    10px 10px 30px #ffffff; */
+    align-items: center;  
+}
+.references-card img{
+    border-radius: 10px;
+    width: 100%;
+}
+/* .references-card-hidden{
+    background-color: black;
+    width: 15em;
+    height: 15em;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+}
+.references-card-hidden:hover{
+    opacity: 0.5;
+} */
+.references-card h3{
+    position: absolute;
+}
+.references-card:hover{
+    transform: translate(0px, -10px);
+    transform: scale(1.10);
+    box-shadow: 5px 5px 5px white;
+    border-radius: 10px;
+    transition: 0.3s;
 }
 .references-card h3{
     font-size: 2.1rem;
-}
-#violon{
-    background-image: url(../img/violon.jpg);
-}
-#loutre{
-    background-image: url(../img/loutre.jpg);
-}
-#grimoire{
-    background-image: url(../img/grimoire.jpg);
-}
-#gem{
-    background-image: url(../img/gem.jpg);
-}
-#arbre{
-    background-image: url(../img/arbre.jpg);
-}
-#potion{
-    background-image: url(../img/potion.jpg);
-}
-#druide{
-    background-image: url(../img/druide.jpg);
-}
-#futhark{
-    background-image: url(../img/futhark.jpg);
 }
 /* ================================ */
 .references-end-texte{
     width: 50%;
     padding: 3em 0;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     font-size: 1.2rem;
 }
 .references-end-texte p{
     margin-bottom: 0.8em;
 }
-.references-end-texte button{
+.references .button{
     font-size: 1rem;
-    color: black;
-    text-decoration: none;
-    background-color: white;
-    border: solid 2px black;
-    border-radius: 10px;
-    padding: 0.3em 1.5em;
 }
 /* =======================================================
     INTERLUDE EAU
@@ -228,18 +189,15 @@
 .commentaires{
     align-items: center;
     justify-content: space-around;
-    min-height: 100vh;
     background-image: url(../img/background-water.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 /* ================================ */
 .commentaire-img{
-    width: 50%;
+    max-width: 100%;
 }
 .post-commentaire{
-    color: white;
-    text-shadow: 2px 2px black;
     text-align: center;
     padding: 1%;
     border-radius: 50px;
@@ -256,6 +214,7 @@
 .post textarea{
     padding: 1%;
     width: 90%;
+    height: 10em;
     border: solid 3px black;
     margin-bottom: 1em;
     border-radius: 10px;
@@ -363,6 +322,7 @@
         flex-direction: column;
     }
     .commentaire-img{
+        margin: 2em 0;
         width: 80%;
     }
     .post-commentaire{
@@ -485,7 +445,7 @@
         flex-direction: row;
     }
     .commentaire-img{
-        width: 55%;
+        max-width: 40%;
     }
     .post-commentaire{
         width: 35%;
@@ -534,8 +494,3 @@
         height: 15em;
     }
 }
-/* @media only screen and (min-width: 2001px){
-    body{
-
-    }
-} */

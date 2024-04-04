@@ -80,9 +80,9 @@ LE CONTENU PRINCIPALE SE DECOMPOSE EN 4 SECTIONS (ET CONTIENT DES INTERLUDES)
                 <p>
                     La “Rural Web Factory” est une agence de développement web créée par les anciens apprenants de l’école du même nom. Faire du web ne signifie pas le faire au détriment de notre belle mère Nature. Nous sommes fiers de pratiquer le développement en “ESS” (Économie Sociale et Solidaire) et, dans cette idée, nous nous mettons à votre disposition pour la réalisation de projets, des documents graphiques aux projets complexes, nous sommes là pour vous !
                 </p>
-                <div class="presentation-buttons">
-                    <button id="RDV">Venez prendre rendez-vous</button>
-                    <button>Nous recrutons</button>
+                <div class="presentation-buttons flex">
+                    <button class="button" id="RDV">Venez prendre rendez-vous</button>
+                    <button class="button">Nous recrutons</button>
                 </div>
             </div>
             <div class="presentation-img">
@@ -111,7 +111,7 @@ LE CONTENU PRINCIPALE SE DECOMPOSE EN 4 SECTIONS (ET CONTIENT DES INTERLUDES)
                     <div>
                         <img src="./img/formation-logo.png" alt="Formation" title="Formation">
                     </div>
-                    <button>Trouver votre formation</button>
+                    <button class="button">Trouver votre formation</button>
                 </div>
                 <div class="services-card">
                     <h3>Design</h3>
@@ -121,7 +121,7 @@ LE CONTENU PRINCIPALE SE DECOMPOSE EN 4 SECTIONS (ET CONTIENT DES INTERLUDES)
                     <div>
                         <img src="./img/design-logo.png" alt="Design" title="Design">
                     </div>
-                    <button>Demandez votre design</button>
+                    <button class="button">Demandez votre design</button>
                 </div>
                 <div class="services-card">
                     <h3>Marketing</h3>
@@ -131,7 +131,7 @@ LE CONTENU PRINCIPALE SE DECOMPOSE EN 4 SECTIONS (ET CONTIENT DES INTERLUDES)
                     <div>
                         <img src="./img/marketing-logo.png" alt="Marketing" title="Marketing">
                     </div>
-                    <button>Campagne marketique</button>
+                    <button class="button">Campagne marketique</button>
                 </div>
                 <div class="services-card"><h3>Hébergement</h3>
                     <p>
@@ -140,7 +140,7 @@ LE CONTENU PRINCIPALE SE DECOMPOSE EN 4 SECTIONS (ET CONTIENT DES INTERLUDES)
                     <div>
                         <img src="./img/site-web-logo.png" alt="Hébergement" title="Hébergement">
                     </div>
-                    <button>Acheter un hébergeur</button>
+                    <button class="button">Acheter un hébergeur</button>
                 </div>
             </div>
         </section>
@@ -166,60 +166,68 @@ LE CONTENU PRINCIPALE SE DECOMPOSE EN 4 SECTIONS (ET CONTIENT DES INTERLUDES)
 
         <section class="references">
             <div class="references-cards flex">
-                    <a href="./pages/violon.html" 
-                        id="violon" 
+                    <a href="./pages/violon.html"
                         class="references-card"
                         title="Mélodie Eternelle">
+                        <img src="./img/violon.jpg" alt="">
                         <h3>Mélodie Éternelle</h3>
+                        <!-- <div class="references-card-hidden"></div> -->
                     </a>
                     <a href="#" 
-                        id="loutre" 
                         class="references-card"
                         title="ÉcoPattes">
+                        <img src="./img/loutre.jpg" alt="">
                         <h3>ÉcoPattes</h3>
+                        <!-- <div class="references-card-hidden"></div> -->
                     </a>
-                    <a href="#" 
-                        id="grimoire" 
+                    <a href="#"
                         class="references-card"
                         title="Arcanum Librairie">
+                        <img src="./img/grimoire.jpg" alt="">
                         <h3>Arcanum Librairie</h3>
+                        <!-- <div class="references-card-hidden"></div> -->
                     </a>
                     <a href="#" 
-                        id="gem" 
                         class="references-card"
                         title="Crystal Gems">
+                        <img src="./img/gem.jpg" alt="">
                         <h3>Crystal Gems</h3>
+                        <!-- <div class="references-card-hidden"></div> -->
                     </a>
             </div>
             <div class="references-cards flex">
-                    <a href="#" 
-                        id="arbre" 
+                    <a href="#"
                         class="references-card"
                         title="L’Atelier Floral">
+                        <img src="./img/arbre.jpg" alt="">
                         <h3>L’Atelier Floral</h3>
+                        <!-- <div class="references-card-hidden"></div> -->
                     </a>
-                    <a href="#" 
-                        id="potion" 
+                    <a href="#"
                         class="references-card"
                         title="Sortilèges Aromatiques">
+                        <img src="./img/potion.jpg" alt="">
                         <h3>Sortilèges Aromatiques</h3>
+                        <!-- <div class="references-card-hidden"></div> -->
                     </a>
-                    <a href="#" 
-                        id="druide" 
+                    <a href="#"
                         class="references-card"
                         title="Bosquet d'émeraude">
+                        <img src="./img/druide.jpg" alt="">
                         <h3>Bosquet d'émeraude</h3>
+                        <!-- <div class="references-card-hidden"></div> -->
                     </a>
-                    <a href="#" 
-                        id="futhark" 
+                    <a href="#"
                         class="references-card"
                         title="Viking'reborn">
+                        <img src="./img/futhark.jpg" alt="">
                         <h3>Viking'reborn</h3>
+                        <!-- <div class="references-card-hidden"></div> -->
                     </a>
             </div>
             <div class="references-end-texte">
                 <p>Ces projets vous interesse ?</p>
-                <button>Alors commandez en un des maintenant !</button>
+                <button class="button">Alors commandez en un des maintenant !</button>
             </div>
         </section>
 
@@ -242,7 +250,7 @@ LE CONTENU PRINCIPALE SE DECOMPOSE EN 4 SECTIONS (ET CONTIENT DES INTERLUDES)
                 </p>
                 <div class="post">
                     <textarea name="" id=""></textarea>
-                    <button>ENVOYER</button>
+                    <button class="button">ENVOYER</button>
                 </div>
             </div>
         </section>
