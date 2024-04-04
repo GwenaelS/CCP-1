@@ -1,3 +1,13 @@
+.button{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 0.8em 1.5em;
+}
+
+
 /* =======================================================
     PRESENTATION SECTION
 ======================================================= */
@@ -5,39 +15,31 @@
     min-height: 70vh;
     background-image: url(../img/background-forest.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     align-items: center;
 }
 /* ================================ */
 .presentation-texte{
+    color: white;
     padding: 2em;
     margin: 5vh;
     width: 40%;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.125);
     border-radius: 50px;
-    color: white;
+    text-shadow: 2px 2px 1px black;
 }
 .presentation-texte h2{
     margin: 2vh 0;
-    text-shadow: 2px 2px black;
 }
 .presentation-texte p{
     margin-bottom: 4vh;
-    text-shadow: 2px 2px 1px black;
 }
 .presentation-buttons{
     display: flex;
     justify-content: flex-end;
 }
 .presentation-buttons button{
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
-    background-color: white;
-    border: solid 2px black;
-    border-radius: 10px;
-    padding: 0.8em 1.5em;
+    
 }
 #RDV{
     margin-right: 1em;
