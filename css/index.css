@@ -1,16 +1,7 @@
-.button{
-    cursor: pointer;
-    color: black;
-    background-color: white;
-    border: solid 2px black;
-    border-radius: 10px;
-    padding: 0.8em 1.5em;
-}
 h2, h3, p{
     text-shadow: 2px 2px 1px black;
     color: white;
 }
-
 /* =======================================================
     PRESENTATION SECTION
 ======================================================= */
@@ -225,6 +216,15 @@ h2, h3, p{
 .interlude-lave{
     height: 8em;
     background-image: linear-gradient(#141545,#190810);
+}
+/* =======================================================
+    FOOTER SPE INDEX.HTML
+======================================================= */
+footer{
+    background-image: url(../img/background-lava.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
