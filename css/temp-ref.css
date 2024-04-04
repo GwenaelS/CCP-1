@@ -60,3 +60,57 @@ h2{
     border-radius: 50px;
     border: 2px solid white;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .reference-preview{
+        flex-direction: column-reverse;
+    }
+    .ref-content{
+        width: 70%;
+        margin: auto;
+        margin-top: 2em;
+    }
+    .ref-image{
+        min-width: 60%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .reference-preview{
+        flex-direction: column-reverse;
+    }
+    .ref-content{
+        width: 70%;
+        margin: auto;
+        margin-top: 2em;
+    }
+    .ref-image{
+        min-width: 60%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .reference-preview{
+        flex-direction: row;
+        align-items: center;
+    }
+    .ref-content{
+        max-width: 30%;
+        margin: auto;
+        margin-top: 1em;
+    }
+    .ref-image{
+        max-width: 40%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 2000px){...}

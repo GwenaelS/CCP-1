@@ -243,37 +243,8 @@ footer{
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
-    .header-infos-reseaux, h1, #home, .presentation-img{
-        display: none;
-    }
     h2{
         font-size: 2rem;
-    }
-    .navbar{
-        margin: 0 2em;
-        justify-content: space-between;
-        position: relative;
-    }
-    .search-bar{
-        margin: 0;
-        width: 25%;
-    }
-    .menu-burger{
-        display: block;
-    }
-    nav{
-        position: absolute;
-        background-color: red;
-        width: 50%;
-        bottom: -205px;
-        z-index: 1;
-    }
-    nav ul{
-        flex-direction: column;
-        padding-bottom: 1em;
-    }
-    nav ul li{
-        margin: 3px 0;
     }
 /* ===================================== */
     .presentation-texte{
@@ -336,47 +307,8 @@ footer{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .header-infos-reseaux, #home{
-        display: none;
-    }
     h2{
         font-size: 2rem;
-    }
-    h1{
-        font-size: 3rem;
-    }
-    .navbar{
-        margin: 0 2em;
-        justify-content: space-between;
-        position: relative;
-    }
-    .search-bar{
-        margin: 0;
-        width: 25%;
-    }
-    .menu-burger{
-        display: block;
-    }
-    nav{
-        position: absolute;
-        background-color: red;
-        width: 50%;
-        bottom: -205px;
-        z-index: 1;
-    }
-    nav ul{
-        flex-direction: column;
-        padding-bottom: 1em;
-    }
-    nav ul li{
-        margin: 3px 0;
-    }
-/* ================= */
-    nav li a{
-        padding: 0.5em 0.2em;
-    }
-    .search-bar input{
-        width: 100%;
     }
 /* ================= */
     .services-texte{
@@ -433,46 +365,6 @@ footer{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .menu-burger{
-        display: none;
-    }
-    .header-infos-reseaux{
-        display: flex;
-    }
-
-
-    #home{
-        display: inline-block
-    }
-    .navbar{
-        margin: 0;
-    }
-    nav{
-        width: 80%;
-        position: static;
-        background-color: transparent;
-    }
-    nav ul{
-        flex-direction: row;
-        padding: 0;
-    }
-    nav li a{
-        padding: 0.5em 1em;
-    }
-    #home{
-        max-width: 1rem;
-    }
-    .search-bar{
-        width: 10%;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .search-bar input{
-        max-width: 100%;
-    }
-
-
-
 /* ================= */
     .services-texte{
         padding-top: 3em;
