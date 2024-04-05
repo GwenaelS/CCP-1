@@ -1,5 +1,12 @@
-icons = document.getElementById("icons")
+function burger(){
+    if(){
+       
+    }
+    (document.getElementsByClassName[0]("nav-ul").classList.toggle("showmenu"))
+}
+// (document.getElementsByClassName[0]("nav-ul").classList.remove("showmenu"))
+console.log(document.querySelector(".menu-burger"));
 
-icons.addEventListener("click", () => {
-    navigator.classList.toggle("active")
+document.querySelector(".menu-burger").addEventListener("click", function() {
+    console.log("lkjdcvfi");
 })

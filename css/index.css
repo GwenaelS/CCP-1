@@ -164,14 +164,17 @@ h2, h3, p{
     background-image: linear-gradient(#38101B,#1A234C);
 }
 /* =======================================================
-    COMMENTAIRES SECTION
+    COMMENTAIRES / BLOG / ACTUALITE SECTION
 ======================================================= */
-.commentaires{
-    align-items: center;
-    justify-content: space-around;
+.multi-sections{
     background-image: url(../img/background-water.jpg);
     background-size: cover;
     background-position: center;
+}
+.commentaires{
+    align-items: center;
+    justify-content: space-around;
+    
 }
 /* ================================ */
 .commentaire-img{
