@@ -1,12 +1,7 @@
-function burger(){
-    if(){
-       
-    }
-    (document.getElementsByClassName[0]("nav-ul").classList.toggle("showmenu"))
-}
-// (document.getElementsByClassName[0]("nav-ul").classList.remove("showmenu"))
-console.log(document.querySelector(".menu-burger"));
+const menuBurger = document.querySelector(".menu-burger")
+const navUL = document.getElementsByClassName("nav-ul")[0]
 
-document.querySelector(".menu-burger").addEventListener("click", function() {
-    console.log("lkjdcvfi");
+menuBurger.addEventListener("click", function() {
+    navUL.classList.toggle("showmenu")
+    console.log(navUL.classList);
 })
