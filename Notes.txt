@@ -1,6 +1,5 @@
 Ce que je dois faire :
 
--Menu burger responsive
 -Slider d'avis
 -Slider actualité
 
@@ -16,3 +15,59 @@ DOCUMENTS :
 
 -CAHIER DES CHARGES
 -MAQUETTES (page accueil) / (image responsive)
+
+
+<!-- <div class="navbar flex">
+            <img class="menu-burger" src="./img/burger.svg" alt="menu burger">
+            <nav>
+                <ul class="nav-ul">
+                    <li><a href="./index.html"><img id="home" src="./img/home.svg" alt="Accueil" title="Accueil"></a></li>
+                    <li><a href="#">L'agence</a></li>
+                    <li><a href="#">Formations</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Références</a></li>
+                    <li><a href="#">Agenda</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="./pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="search" placeholder="Rechercher">
+            </div>
+        </div> -->
+
+
+
+        /* .navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+nav{
+    width: 80%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 1em;
+    font-size: 1.2rem;
+}
+nav a:hover{
+    border-bottom: solid 2px green;
+}
+#home{
+    max-width: 1rem;
+}
+.search-bar{
+    width: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.search-bar input{
+    max-width: 100%;
+} */

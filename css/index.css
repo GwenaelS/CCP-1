@@ -171,6 +171,15 @@ h2, h3, p{
     background-size: cover;
     background-position: center;
 }
+.actuality{
+    padding: 2em 0;
+}
+.actuality-box{
+    width: 80%;
+    margin: 2em auto 0 auto;
+    height: 20em;
+    background-color: black;
+}
 .commentaires{
     align-items: center;
     justify-content: space-around;
@@ -235,13 +244,17 @@ footer{
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
+    
     h2{
         font-size: 2rem;
     }
 /* ===================================== */
+    .presentation-img{
+        display: none;
+    }
     .presentation-texte{
         width: 80%;
-        margin: auto;
+        margin: 1em auto;
     }
 /* ================= */
     .services-texte{

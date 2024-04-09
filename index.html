@@ -31,7 +31,9 @@ INFOS / PRESENTATION / NAVBAR -->
 <!-- PRESENTATION ET PROFIL -->
         <div class="header-presentation flex">
             <div class="header-titre flex">
-                <img src="./img/logo-NN.png" alt="Logo Net'Nature" title="Logo Net'Nature">
+                <a href="./index.html">
+                    <img src="./img/logo-NN.png" alt="Logo Net'Nature" title="Logo Net'Nature">
+                </a>
                 <h1>Net'Nature</h1>
             </div>
             <div class="compte flex">
@@ -40,25 +42,18 @@ INFOS / PRESENTATION / NAVBAR -->
             </div>
         </div>
 <!-- NAVBAR -->
-        <div class="navbar flex">
-<!-- POUR MENU BURGER -->
-            <img class="menu-burger" src="./img/burger.svg" alt="menu burger">
-            <nav>
-                <ul class="nav-ul">
-                    <li><a href="./index.html"><img id="home" src="./img/home.svg" alt="Accueil" title="Accueil"></a></li>
-                    <li><a href="#">L'agence</a></li>
-                    <li><a href="#">Formations</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Références</a></li>
-                    <li><a href="#">Agenda</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="./pages/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="search-bar">
-                <input type="search" placeholder="Rechercher">
-            </div>
-        </div>
+        <nav class="flex">
+            <ul class="flex">
+                <li><a id="home-a" href="#"><img id="home" src="./img/home2.svg" alt="#"></a></li>
+                <li><a href="#">L'agence</a></li>
+                <li><a href="#">Formations</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Références</a></li>
+                <li><a href="#">Agenda</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
 
@@ -241,7 +236,12 @@ LE CONTENU PRINCIPALE SE DECOMPOSE EN 4 SECTIONS (ET CONTIENT DES INTERLUDES)
     COMMENTAIRES / ACTUALITE / BLOG -->
             
         <section class="multi-sections">
-        <h2>Actualités</h2>
+        <div class="actuality text-center">
+            <h2>Actualités</h2>
+            <div class="actuality-box">
+
+            </div>
+        </div>
             <section class="commentaires flex">
                 <img class="commentaire-img" src="./img/avis.jpg" alt="#">
                 <div class="post-commentaire">
