@@ -38,32 +38,25 @@ INFOS / PRESENTATION / NAVBAR -->
                 </div>
             </div>
     <!-- NAVBAR -->
-            <div class="navbar flex">
-    <!-- POUR MENU BURGER -->
-                <img class="menu-burger" src="../img/burger.svg" alt="menu burger">
-                <nav>
-                    <ul>
-                        <li><a href="../index.html"><img id="home" src="../img/home.svg" alt="Accueil" title="Accueil"></a></li>
-                        <li><a href="#">L'agence</a></li>
-                        <li><a href="#">Formations</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Références</a></li>
-                        <li><a href="#">Agenda</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="../pages/contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-                <div class="search-bar">
-                    <input type="search" placeholder="Rechercher">
-                </div>
-            </div>
+            <nav class="flex">
+                <ul class="flex">
+                    <li><a id="home-a" href="../index.html"><img id="home" src="../img/home.svg" alt="#"></a></li>
+                    <li><a href="#">L'agence</a></li>
+                    <li><a href="#">Formations</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Références</a></li>
+                    <li><a href="#">Agenda</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </header>
 
 
     <main>
         <h2 class="text-center">Contact</h2>
         <section class="formulaire-container">
-            <form class="flex">
+            <form onsubmit="returnContact(); event.preventDefault()" name="formContact" class="flex">
                 <div class="informations">
                     <h3 class="text-center">Informations</h3>
                     <p>
@@ -86,10 +79,10 @@ INFOS / PRESENTATION / NAVBAR -->
                 </div>
                 <div class="formulaire">
                     <div>
-                        <input type="text" placeholder="Prénom" name="first-name" id="first-name">
+                        <input type="text" placeholder="Prénom" name="firstname" id="firstname">
                     </div>
                     <div>
-                        <input type="text" placeholder="Nom" name="last-name" id="last-name">
+                        <input type="text" placeholder="Nom" name="lastname" id="lastname">
                     </div>
                     <div>
                         <input type="email" placeholder="E-mail" name="email" id="email">
@@ -185,5 +178,6 @@ INFOS / PRESENTATION / NAVBAR -->
             <a class="button" href="#">Politique de confidentialité</a>
         </div>
     </footer>
+    <script src="../js/contact.js"></script>
 </body>
 </html>
