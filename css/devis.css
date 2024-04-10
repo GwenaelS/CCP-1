@@ -1,0 +1,21 @@
+body{
+    background-image: url(../img/forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+h2{
+    margin-top: 0.5em;
+}
+
+
+.title{
+    padding: 2em 0;
+}
+
+.form-part1{
+    flex-direction: column;
+}
