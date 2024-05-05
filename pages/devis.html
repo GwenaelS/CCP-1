@@ -3,98 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <meta name="description" content=""> -->
+    <title>Net'Nature - Devis</title>
+    <meta name="description" content="Net'Nature vous propose un système de devis pour facilité les demandes">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/template.css">
     <link rel="stylesheet" href="../css/devis.css">
+    <link rel="shortcut icon" href="../img/logo-NN.png" type="image/png">
 </head>
 <body>
-<!-- LA PARTIE HEADER SE DECOMPOSE EN 3 PARTIES
-INFOS / PRESENTATION / NAVBAR -->
-<header>
-    <!-- INFOS / RESEAUX -->
-            <div class="header-infos-reseaux">
-                <div class="header-infos">
-                    <a href="../pages/devis.html">Vous avez un projet ?</a>
-                    <a href="#">samyngwenaelpro@gmail.com</a>
-                </div>
-                <div class="header-reseaux">
-                    <a href="https://www.facebook.com" target="_blank"><img src="../img/logo-facebook.svg" alt="Facebook" title="Facebook"></a>
-                    <a href="https://fr.linkedin.com" target="_blank"><img src="../img/logo-linkedin.svg" alt="LinkedIn" title="LinkedIn"></a>
-                    <a href="https://twitter.com/?lang=fr" target="_blank"><img src="../img/logo-twitter.svg" alt="Twitter" title="Twitter"></a>
-                    <a href="https://www.youtube.com" target="_blank"><img src="../img/logo-youtube.svg" alt="Youtube" title="Youtube"></a>
-                </div>
+    <header>
+        <!-- INFOS / RESEAUX -->
+        <div class="header-infos-reseaux">
+            <div class="header-infos">
+                <a href="../pages/devis.html">Vous avez un projet ?</a>
+                <a href="#">samyngwenaelpro@gmail.com</a>
             </div>
-    <!-- PRESENTATION ET PROFIL -->
-            <div class="header-presentation flex">
-                <div class="header-titre flex">
-                    <img src="../img/logo-NN.png" alt="Logo Net'Nature" title="Logo Net'Nature">
-                    <h1>Net'Nature</h1>
-                </div>
-                <div class="compte flex">
-                    <img class="messagerie" src="../img/letter.svg" alt="Messagerie" title="Messagerie">
-                    <img class="profil" src="../img/photo.jpg" alt="Profil" title="Profil">
-                </div>
+            <div class="header-reseaux">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="../img/logo-facebook.svg" alt="Facebook" title="Facebook">
+                </a>
+                <a href="https://fr.linkedin.com" target="_blank">
+                    <img src="../img/logo-linkedin.svg" alt="LinkedIn" title="LinkedIn">
+                </a>
+                <a href="https://twitter.com/?lang=fr" target="_blank">
+                    <img src="../img/logo-twitter.svg" alt="Twitter" title="Twitter">
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="../img/logo-youtube.svg" alt="Youtube" title="Youtube">
+                </a>
             </div>
-    <!-- NAVBAR -->
-            <nav class="flex">
-                <ul class="flex">
-                    <li><a id="home-a" href="../index.html"><img id="home" src="../img/home.svg" alt="#"></a></li>
-                    <li><a href="#">L'agence</a></li>
-                    <li><a href="#">Formations</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Références</a></li>
-                    <li><a href="#">Agenda</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="../pages/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-
-
+        </div>
+        <!-- PRESENTATION ET PROFIL -->
+        <div class="header-presentation flex">
+            <div class="header-titre flex">
+                <img src="../img/logo-NN.png" alt="Logo Net'Nature" title="Logo Net'Nature">
+                <h1>Net'Nature</h1>
+            </div>
+            <div class="compte flex">
+                <img class="messagerie" src="../img/letter.svg" alt="Messagerie" title="Messagerie">
+                <img class="profil" src="../img/photo.jpg" alt="Profil" title="Profil">
+            </div>
+        </div>
+        <!-- NAVBAR -->
+        <nav class="flex">
+            <ul class="flex">
+                <li>
+                    <a id="home-a" href="../index.html">
+                        <img id="home" src="../img/home.svg" alt="#">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">L'agence</a>
+                </li>
+                <li>
+                    <a href="#">Formations</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Références</a>
+                </li>
+                <li>
+                    <a href="#">Agenda</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="../pages/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <div class="title text-center">
             <h2>Vous avez un projet de création de site internet ?</h2>
             <span>Contactez-nous !</span>
         </div>
-        <form>
-            <div class="form-part1 flex">
-                <div class="col-form-1">
-                    <label for="">Société :</label>
-                    <input type="text" name="" id="">
-
-                    <label for="">Civilité :</label>
-                    <input type="radio"><label for="">Mr.</label>
-                    <input type="radio"><label for="">Mlle.</label>
-                    <input type="radio"><label for="">Autre.</label>
-
-                    <label for="">Nom : *</label>
-                    <input type="text" name="" id="">
-
-                    <label for="">Nom : *</label>
-                    <input type="tel" name="" id="">
+        <form class="flex">
+            <div class="form flex">
+                <div class="form-part1 flex">
+                    <div>
+                        <div>
+                            <label for="societe">Sociéte :</label>
+                            <input type="text" name="societe" id="societe">
+                        </div>
+                        <div>
+                            <label for="site">Avez vous déjà un site :</label>
+                            <input type="text" name="site" id="site">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="civilite">Civilité :</label>
+                        <input type="radio" name="civilite" id="">
+                        <input type="radio" name="civilite" id="">
+                        <input type="radio" name="civilite" id="">
+                    </div>
+                    <div>
+                        <div>
+                            <label for="nom">Nom :</label>
+                            <input type="text" name="nom" id="">
+                        </div>
+                        <div>
+                            <label for="prenom">Prénom :</label>
+                            <input type="text" name="prenom" id="">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="">Téléphone :</label>
+                            <input type="text" name="" id="">
+                        </div>
+                        <div>
+                            <label for="">Email :</label>
+                            <input type="text" name="" id="">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-form-2">
-                    <label for="">Avez-vous déja un site :</label>
-                    <input type="text" name="" id="">
-
-                    <label for="">Prénom :</label>
-                    <input type="text" name="" id="">
-
-                    <label for="">Email</label>
-                    <input type="text" name="" id="">
+                <div class="form-part2 flex">
+                    <label for="offre">Vous êtes intéressé par l'offre :*</label>
+                    <input type="radio"><label for="offre">Site E-commerce</label>
+                    <input type="radio"><label for="offre">Site catalogue</label>
+                    <input type="radio"><label for="offre">Site institutionnel</label>
+                    <input type="radio"><label for="offre">Refonte de site</label>
+                    <input type="radio"><label for="offre">Site de marque</label>
+                    <input type="radio"><label for="offre">Application</label>
+                    <input type="radio"><label for="offre">Site vitrine</label>
                 </div>
-            </div>
-            <div class="form-part2 flex">
-                <label for="">Vous êtes intéressé par l'offre :*</label>
-                <input type="text"><label for="">Site E-commerce</label>
-                <input type="text"><label for="">Site catalogue</label>
-                <input type="text"><label for="">Site institutionnel</label>
-                <input type="text"><label for="">Refonte de site</label>
-                <input type="text"><label for="">Site de marque</label>
-                <input type="text"><label for="">Application</label>
-                <input type="text"><label for="">Site vitrine</label>
             </div>
             <div>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
@@ -102,10 +138,6 @@ INFOS / PRESENTATION / NAVBAR -->
             </div>
         </form>
     </main>
-
-
-
-
     <footer>
         <div class="footer-all flex">
             <div class="dropdown">

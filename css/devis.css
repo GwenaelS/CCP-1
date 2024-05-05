@@ -15,7 +15,13 @@ h2{
 .title{
     padding: 2em 0;
 }
-
-.form-part1{
+form{
     flex-direction: column;
+}
+.form{
+    width: 100%;
+}
+.form-part1, .form-part2{
+    flex-direction: column;
+    width: 50%;
 }
